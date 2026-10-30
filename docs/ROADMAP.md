@@ -1,5 +1,7 @@
 # AndroBody 路线图
 
+**语言** · [简体中文](ROADMAP.md) · [English](ROADMAP.en.md)
+
 **更新：** 2026-10-30。本文描述未来工作次序，不代表功能已经实现或验收。
 
 ## 不变的开发原则
@@ -91,5 +93,7 @@ AndroBody 必须持续把 Android 应用在理论上可能拥有的感知与行�
 ## 详计划与进度入口
 
 - [原生与网关架构](ARCHITECTURE.md)
+- [English architecture](ARCHITECTURE.en.md)
 - [可检查委托合同](architecture/INSPECTABLE_DELEGATION.md)
+- [English inspectable delegation contract](architecture/INSPECTABLE_DELEGATION.en.md)
 - 逐设备验证记录应保存设备标识以外的最小必要信息，并与源码计划分开；公开材料不得包含私人配置或原始用户日志。

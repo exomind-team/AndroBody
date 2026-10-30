@@ -1,5 +1,7 @@
 # Inspectable delegation contract
 
+**Language** · [简体中文](INSPECTABLE_DELEGATION.md) · [English](INSPECTABLE_DELEGATION.en.md)
+
 AndroBody treats execution as a chain of facts that users and agents can inspect. A tool name, model response or system dispatch is not a substitute for evidence about what actually happened.
 
 ## Shared state

@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="1032" viewBox="0 0 640 1032" role="img" aria-labelledby="androbody-architecture-en-title androbody-architecture-en-desc">
+  <title id="androbody-architecture-en-title">AndroBody execution and evidence flow</title>
+  <desc id="androbody-architecture-en-desc">Native, Gateway, and the planned External Tool Service converge on capability and permission checks, then make Android calls and produce receipts. Outcomes are confirmed only when independent evidence exists.</desc>
+  <rect width="640" height="1032" rx="24" fill="#10231f"/>
+  <text x="320" y="43" text-anchor="middle" fill="#f2fff9" font-size="19" font-weight="700">Three modes. One evidence-backed execution path.</text>
+
+  <path d="M120 164V187H250V212M320 164V212" fill="none" stroke="#87dec9" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M520 164V187H390V212" fill="none" stroke="#c4b4ef" stroke-width="2.5" stroke-dasharray="7 6" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M244 204L250 212L256 204Z" fill="#87dec9"/>
+  <path d="M314 204L320 212L326 204Z" fill="#87dec9"/>
+  <path d="M384 204L390 212L396 204Z" fill="#c4b4ef"/>
+
+  <path d="M320 300V346M320 434V480M320 568V614M320 702V748M320 836V882" fill="none" stroke="#87dec9" stroke-width="2.5" stroke-linecap="round"/>
+  <path d="M314 338L320 346L326 338Z" fill="#87dec9"/>
+  <path d="M314 472L320 480L326 472Z" fill="#87dec9"/>
+  <path d="M314 606L320 614L326 606Z" fill="#f1ad8e"/>
+  <path d="M314 740L320 748L326 740Z" fill="#f1ad8e"/>
+  <path d="M314 874L320 882L326 874Z" fill="#c4b4ef"/>
+
+  <rect x="20" y="76" width="200" height="88" rx="16" fill="#18362f" stroke="#87dec9" stroke-width="2"/>
+  <text x="120" y="108" text-anchor="middle" fill="#f2fff9" font-size="20" font-weight="700">Native</text>
+  <text x="120" y="133" text-anchor="middle" fill="#bfd3ca" font-size="14">Native agent loop</text>
+  <text x="120" y="153" text-anchor="middle" fill="#87dec9" font-size="11" font-weight="700" letter-spacing="1.4">CURRENT</text>
+
+  <rect x="220" y="76" width="200" height="88" rx="16" fill="#18362f" stroke="#87dec9" stroke-width="2"/>
+  <text x="320" y="108" text-anchor="middle" fill="#f2fff9" font-size="20" font-weight="700">Gateway</text>
+  <text x="320" y="133" text-anchor="middle" fill="#bfd3ca" font-size="14">Local tool calls</text>
+  <text x="320" y="153" text-anchor="middle" fill="#87dec9" font-size="11" font-weight="700" letter-spacing="1.4">CURRENT</text>
+
+  <rect x="420" y="76" width="200" height="88" rx="16" fill="#211e2e" stroke="#c4b4ef" stroke-width="2" stroke-dasharray="8 6"/>
+  <text x="520" y="108" text-anchor="middle" fill="#f2fff9" font-size="20" font-weight="700">External tools</text>
+  <text x="520" y="133" text-anchor="middle" fill="#bfd3ca" font-size="14">MCP / IPC service</text>
+  <text x="520" y="153" text-anchor="middle" fill="#c4b4ef" font-size="11" font-weight="700" letter-spacing="1.4">PLANNED</text>
+
+  <rect x="32" y="212" width="576" height="88" rx="17" fill="#1d4138" stroke="#87dec9" stroke-width="2"/>
+  <text x="320" y="249" text-anchor="middle" fill="#f2fff9" font-size="21" font-weight="700">Capability map</text>
+  <text x="320" y="276" text-anchor="middle" fill="#bfd3ca" font-size="15">Keep potential separate from feasibility now</text>
+
+  <rect x="32" y="346" width="576" height="88" rx="17" fill="#18362f" stroke="#87dec9" stroke-width="2"/>
+  <text x="320" y="383" text-anchor="middle" fill="#f2fff9" font-size="21" font-weight="700">Policy and permission checks</text>
+  <text x="320" y="410" text-anchor="middle" fill="#bfd3ca" font-size="15">Tool policy · Android system grants</text>
+
+  <rect x="32" y="480" width="576" height="88" rx="17" fill="#18362f" stroke="#87dec9" stroke-width="2"/>
+  <text x="320" y="517" text-anchor="middle" fill="#f2fff9" font-size="21" font-weight="700">Native adapter</text>
+  <text x="320" y="544" text-anchor="middle" fill="#bfd3ca" font-size="15">Android APIs · hardware · authorized bridges</text>
+
+  <rect x="32" y="614" width="576" height="88" rx="17" fill="#18362f" stroke="#f1ad8e" stroke-width="2"/>
+  <text x="320" y="651" text-anchor="middle" fill="#f2fff9" font-size="21" font-weight="700">Actual attempt</text>
+  <text x="320" y="678" text-anchor="middle" fill="#bfd3ca" font-size="15">Record the phase returned by the system</text>
+
+  <rect x="32" y="748" width="576" height="88" rx="17" fill="#1d4138" stroke="#f1ad8e" stroke-width="2"/>
+  <text x="320" y="785" text-anchor="middle" fill="#f2fff9" font-size="21" font-weight="700">Receipt and runtime trace</text>
+  <text x="320" y="812" text-anchor="middle" fill="#bfd3ca" font-size="14">submitted · completed · unknown · failed</text>
+
+  <rect x="32" y="882" width="576" height="88" rx="17" fill="#211e2e" stroke="#c4b4ef" stroke-width="2"/>
+  <text x="320" y="919" text-anchor="middle" fill="#f2fff9" font-size="21" font-weight="700">Independent observation</text>
+  <text x="320" y="946" text-anchor="middle" fill="#bfd3ca" font-size="15">Confirm an effect only when evidence exists</text>
+
+  <text x="320" y="1008" text-anchor="middle" fill="#bfd3ca" font-size="14">Submitted does not mean completed. Unknown actions are not replayed.</text>
+</svg>
