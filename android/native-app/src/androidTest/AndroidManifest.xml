@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Only the isolated AndroidTest package uses this to emit a synthetic notification fixture. -->
+    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+    <application>
+        <receiver android:name="org.exomind.androbody.nativeapp.NotificationFixtureReceiver"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="org.exomind.andromorph.qa.POST_NOTIFICATION_FIXTURE" />
+                <action android:name="org.exomind.andromorph.qa.CANCEL_NOTIFICATION_FIXTURE" />
+            </intent-filter>
+        </receiver>
+    </application>
+</manifest>

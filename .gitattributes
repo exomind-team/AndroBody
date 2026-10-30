@@ -1,0 +1,13 @@
+* text=auto eol=lf
+
+# Preserve source archives and dated evidence byte for byte.
+docs/handoffs/v2.1/** -text
+docs/reviews/** -text
+docs/AndroMorph_Master_Plan_v1.md -text
+docs/AndroMorph_Codex_V2_1_*.md -text
+docs/*V3.0* -text -whitespace
+# Preserve authored Markdown breaks, patch context, and literal command receipts.
+*.patch -whitespace
+evidence/**/*.txt -whitespace
+*.zip binary
+*.pdf binary

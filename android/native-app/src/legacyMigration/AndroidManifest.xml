@@ -1,0 +1,14 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+    <permission
+        android:name="org.exomind.androbody.permission.MIGRATION_EXPORT"
+        android:protectionLevel="signature" />
+    <application android:label="@string/app_name_migration" tools:replace="android:label">
+        <provider
+            android:name="org.exomind.androbody.nativeapp.migration.MigrationProvider"
+            android:authorities="org.exomind.androbody.migration"
+            android:exported="true"
+            android:grantUriPermissions="false"
+            android:permission="org.exomind.androbody.permission.MIGRATION_EXPORT" />
+    </application>
+</manifest>

@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">AndroBody</string>
+    <string name="notification_listener_label">AndroBody 通知访问</string>
+</resources>
