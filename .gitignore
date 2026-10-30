@@ -18,7 +18,8 @@ local.properties
 **/build/
 node_modules/
 dist/
-evidence/**/raw/
+# Device evidence may contain personal identifiers or private diagnostics.
+evidence/
 android/app/src/main/jniLibs/
 android/app/src/main/assets/runtime/
 
