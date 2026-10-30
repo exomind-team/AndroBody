@@ -39,7 +39,7 @@ AndroBody 是 Android 原生 Agent 与能力层。它让 Agent 在用户授权�
 
 ## 验证边界
 
-当前源码对应 `0.6.9` 内部验证候选；APK 使用 Android debug 证书，不是正式稳定版，也未随公开仓库发布。既有构建记录包含两个身份变体各 92 项 JVM 测试、lint 与 APK 组装；Android instrumentation 未运行。真实模型计费、ARM64 runtime、通知读取和人工视觉/音频验收须按设备与配置单独确认。
+当前源码对应 `0.6.9` 内部验证候选；APK 使用 Android debug 证书，不是正式稳定版，也未随公开仓库发布。既有构建记录包含两个身份变体各 92 项 JVM 测试、lint 与 APK 组装；Android instrumentation 未运行。这些是先前的内部构建记录，本次文档更新没有重跑；原始设备日志不随公开仓库发布。真实模型计费、ARM64 runtime、通知读取和人工视觉/音频验收须按设备与配置单独确认。
 
 ## 构建
 

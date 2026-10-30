@@ -39,7 +39,7 @@ Generic Intent, system speech recognition, Shell/PTY, Shizuku/Root adapters, aut
 
 ## Verification boundary
 
-The current source corresponds to the `0.6.9` internal verification candidate. Its APK uses an Android debug certificate; it is not a stable release and is not published in this repository. Existing build records show 92 JVM tests per identity variant, lint, and APK assembly; Android instrumentation was not run. Real-model billing, ARM64 runtime, notification reading, and human visual/audio acceptance require separate checks for each device and configuration.
+The current source corresponds to the `0.6.9` internal verification candidate. Its APK uses an Android debug certificate; it is not a stable release and is not published in this repository. Existing build records show 92 JVM tests per identity variant, lint, and APK assembly; Android instrumentation was not run. These are prior internal build records and were not rerun for this documentation update; raw device logs are not included in the public repository. Real-model billing, ARM64 runtime, notification reading, and human visual/audio acceptance require separate checks for each device and configuration.
 
 ## Build
 
